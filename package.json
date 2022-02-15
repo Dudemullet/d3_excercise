@@ -1,0 +1,25 @@
+{
+  "name": "kentik_problem",
+  "version": "1.0.0",
+  "description": "The intent for this project is to demonstrate your thought process in solution development as well as coding style and practices. Please provide a short document (paragraph or a few) indicating what your thought process was, what you did and didn't do (things you might add/improve on if you had all the time in the world), things you see as potential issues with what you implemented... as well as the solution itself. Please also try to provide a rough estimate of how much time you spent on the project.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "watch": "npx webpack --watch",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@observablehq/inputs": "github:observablehq/inputs",
+    "d3": "^7.3.0",
+    "highcharts": "^9.3.3",
+    "webpack": "^5.68.0"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
